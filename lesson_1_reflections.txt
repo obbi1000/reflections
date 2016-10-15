@@ -1,0 +1,31 @@
+How did viewing a diff between two files help you spot the bug?
+- seeing only the relevant part of the files that did change is faster
+- using a machine to find differences is more accurat than human eye esp. in case of small changes/typos
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- easy revert to older versions
+- finding bugs is more easy
+- return to program versions made for older environments is more easy
+- easy to try new code and turn back to start point in case it did not work
+- more structured programming because it trains to solve task one by another and commit a version change after that
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
++ easier to decide when a commit is needed by logic
++ manual commit has an option to write a comment that makes it easier to understand what has happened for other people or for oneself later one
+- under pressure one may forget to commit 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
++ multiple files may be part of something bigger which can be seen as a complex container and changing a single file affects the whole container. 
+  In such cases it makes sense to treat a number of files as one.
+  
+How can you use the commands git log and git diff to view the history of files?
+git log gives an overview of all changes and shows the description the programmer has provided.
+git diff with both commit ids shows the changes made, which line were removed and which lines where added
+
+How might using version control make you more confident to make changes that could break something?
+Because its easy to revert these changes and return to the previous condition or code.  
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- programm developing
+- enhance more experimaental into different programming techniques or layouts
+
