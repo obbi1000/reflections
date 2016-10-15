@@ -1,0 +1,4 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Stating Area with its files is part of the working directory, but not it´s total. Giving me more control about which files to maintain and which to ignore.
+
+
